@@ -14,6 +14,8 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap"
       rel="stylesheet"
     />
+
+    <script src="/script.js" defer></script>
   </head>
 
   <body>
@@ -45,11 +47,11 @@
     </aside> --> 
 
     <main class="counter">
-      <input class="counter__value" readonly value="1000" />
+      <input class="counter__value" data-key="number" value="0" />
 
       <div class="counter__actions">
-        <button class="counter__button counter__button_first">-</button>
-        <button class="counter__button">+</button>
+        <button class="counter__button counter__button_first" data-key="subtract" >-</button>
+        <button class="counter__button" data-key="add" >+</button>
       </div>
     </main>
 
