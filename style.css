@@ -14,5 +14,22 @@
 
 body {
     margin: 0;
-    background-color: pink;
+    background-color: var(--color-medium-grey);
+    color: var(--color-white);
+    font-family: Roboto, Arial, Helvetica, sans-serif}
+
+
+    /* heading */
+    .header {
+        text-align: center;
+    }
+
+/*Controls*/
+.controls { 
+background: aqua;
+}
+
+/*Counter*/
+.counter {
+    background: var(--color-dark-grey);
 }
