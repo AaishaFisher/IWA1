@@ -1,2 +1,2 @@
-# Example Project
+# Followed along with the lecturer.
  
