@@ -81,6 +81,10 @@ body {
   background: var(--color-medium-grey);
   transform: translateY(2%);
 }
+ 
+.counter__button:disabled {
+    opacity: 0.2; 
+}
 
 /*FOOTER*/
 .footer {
